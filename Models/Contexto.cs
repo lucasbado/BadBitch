@@ -5,7 +5,7 @@ namespace BadBitch.Models
     public class Contexto : DbContext
     {
 
- public Contexto( DbContextOptions<Contexto> options):base(options)
+ public Contexto ( DbContextOptions<Contexto> options):base(options)
         {
 
         }

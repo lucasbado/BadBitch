@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Contexto>
     (options => options.UseSqlServer
-    ("Data Source=BadBitch;User Id=rm88072;Password=060201;Integrated Security=no;"));
+    ("Data Source=tcp:badbitchdbserver.database.windows.net,1433;Initial Catalog=badbitchbd;User Id=BadBitch@badbitchdbserver;Password=Melancia009@#"));
 
 
 var app = builder.Build();
